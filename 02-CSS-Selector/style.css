@@ -1,0 +1,28 @@
+/* CSS Universal Selector */
+* {
+    text-decoration: none;
+}
+
+/* CSS Element Selector */
+p {
+    color: blue;
+    text-align: center;
+}
+
+/* CSS id Selector */
+#parId {
+    color: green;
+    text-align: center;
+}
+
+/* CSS Class Selector */
+.parClass {
+    color: red;
+    text-align: center;
+}
+
+/* Akan merubah style tag P yang mempunyai class centre */
+p.center {
+    color: yellow;
+    text-align: center;
+}
