@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menerapkan style pada child element</title>
+    <!-- untuk menggunakan style pada child element, kita bisa menggunakan simbol (>) -->
+    <style>
+      .child > h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="child">
+      <h1>Ini adalah h1 child dari div class child</h1>
+      <div>
+        <h1>Ini bukan h1 child dari div class child</h1>
+      </div>
+    </div>
+  </body>
+</html>

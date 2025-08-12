@@ -1,0 +1,9 @@
+/* kita bisa menggunakan logo (*) untuk menandakan semua element tersebut sudah kita pilih */
+* {
+  background-color: violet;
+}
+
+/* berarti ini adalah menerapkan style ke semua element div yang mempunyai class satu */
+div.satu * {
+  color: red;
+}
